@@ -1,9 +1,0 @@
-add_newline = false
-format = "$status$git_commit"
-
-[git_commit]
-format = "[$hash](blue)"
-only_detached = false
-
-[status]
-disabled = false

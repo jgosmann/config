@@ -1,0 +1,14 @@
+format = '${custom.prompt_mark}$all'
+
+right_format = "$git_commit"
+
+[custom.prompt_mark]
+command = 'printf "\033]133;A\007"'
+when = "true"
+
+[status]
+disabled = false
+
+[git_commit]
+format = "[$hash](blue)"
+only_detached = false
